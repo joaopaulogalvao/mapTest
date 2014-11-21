@@ -14,10 +14,40 @@
 
 @implementation SearchViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+    
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - SearchBar Delegate
+
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
     [self loadObjects];
 }
 
+-(void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
+    [self clear];
+   
+    
+}
+
+-(void)searchBarTextDidEndEditing:(UISearchBar *)searchBar{
+    
+}
+
+
+
+
+#pragma mark - PFQueryTableViewController
 
 -(PFQuery*)queryForTable{
     PFQuery *nameQuery = [[PFQuery alloc] initWithClassName:@"Places"];
@@ -55,19 +85,8 @@
     
 }
 
--(void)searchBarTextDidEndEditing:(UISearchBar *)searchBar{
-    
-}
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 /*
 #pragma mark - Navigation
