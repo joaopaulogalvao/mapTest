@@ -59,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CDB421C1A1FD24A007D94C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BD3E88CC1A11164E0034C6D7 /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
 		BD3E88CD1A11164E0034C6D7 /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
 		BD74FA4819D43D860030E78A /* mapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -403,6 +404,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BD74FA5919D43D860030E78A /* Base */,
+				6CDB421C1A1FD24A007D94C5 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

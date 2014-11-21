@@ -54,6 +54,7 @@
 #pragma mark - PFQueryTableViewController
 
 -(PFQuery*)queryForTable{
+    
     PFQuery *nameQuery = [[PFQuery alloc] initWithClassName:@"Places"];
     [nameQuery whereKey:@"Name" containsString:self.search.text];
     NSLog(@"%@", self.search.text);

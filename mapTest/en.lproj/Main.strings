@@ -1,0 +1,30 @@
+
+/* Class = "IBUIButton"; normalTitle = "X"; ObjectID = "8Ks-Gz-bJa"; */
+"8Ks-Gz-bJa.normalTitle" = "X";
+
+/* Class = "IBUIViewController"; title = "Map"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Map";
+
+/* Class = "IBUITabBarItem"; title = "Search"; ObjectID = "ISh-pJ-RV4"; */
+"ISh-pJ-RV4.title" = "Search";
+
+/* Class = "IBUITabBarItem"; title = "Offers"; ObjectID = "MJ8-Ae-lfN"; */
+"MJ8-Ae-lfN.title" = "Offers";
+
+/* Class = "IBUITabBarItem"; title = "Map"; ObjectID = "ZjS-Aq-qT2"; */
+"ZjS-Aq-qT2.title" = "Map";
+
+/* Class = "IBUITabBarItem"; title = "Search"; ObjectID = "e88-VR-krO"; */
+"e88-VR-krO.title" = "Search";
+
+/* Class = "IBUISearchBar"; gsr-t7-taX.scopeButtonTitles[0] = "Title"; ObjectID = "gsr-t7-taX"; */
+"gsr-t7-taX.scopeButtonTitles[0]" = "Title";
+
+/* Class = "IBUISearchBar"; gsr-t7-taX.scopeButtonTitles[1] = "Title"; ObjectID = "gsr-t7-taX"; */
+"gsr-t7-taX.scopeButtonTitles[1]" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "Center"; ObjectID = "h7C-Ua-Mbl"; */
+"h7C-Ua-Mbl.normalTitle" = "Center";
+
+/* Class = "IBUITabBarItem"; title = "Offers"; ObjectID = "lZS-2t-I3c"; */
+"lZS-2t-I3c.title" = "Offers";
