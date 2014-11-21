@@ -40,6 +40,10 @@
     
 }
 
+-(void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar{
+    
+}
+
 -(void)searchBarTextDidEndEditing:(UISearchBar *)searchBar{
     
 }

@@ -17,7 +17,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Sbd-et-AvG"/>
                         <segue destination="E2C-R6-2DB" kind="relationship" relationship="viewControllers" id="TlY-qM-sHN"/>
-                        <segue destination="Orz-p6-RXX" kind="relationship" relationship="viewControllers" id="VyL-cJ-9vs"/>
+                        <segue destination="z6F-HI-I33" kind="relationship" relationship="viewControllers" id="F3d-sU-LHb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cn-Ma-tvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -115,12 +115,12 @@
             </objects>
             <point key="canvasLocation" x="778" y="498"/>
         </scene>
-        <!--Item-->
+        <!--Search-->
         <scene sceneID="Ruc-8q-YMc">
             <objects>
                 <tableViewController id="Orz-p6-RXX" customClass="SearchViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="c7W-0I-Ra0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" showsCancelButton="YES" id="gsr-t7-taX">
@@ -148,14 +148,33 @@
                             <outlet property="delegate" destination="Orz-p6-RXX" id="kED-eR-nzx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="ISh-pJ-RV4"/>
+                    <tabBarItem key="tabBarItem" title="Search" id="ISh-pJ-RV4"/>
+                    <navigationItem key="navigationItem" id="aOx-uf-oem"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="search" destination="gsr-t7-taX" id="FQr-sC-TDs"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIV-n7-l5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1380" y="835"/>
+            <point key="canvasLocation" x="-124" y="1263"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="B3N-Bv-Rk7">
+            <objects>
+                <navigationController id="z6F-HI-I33" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" id="e88-VR-krO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QrZ-5O-aRa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Orz-p6-RXX" kind="relationship" relationship="rootViewController" id="w1y-7Q-orC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n4p-U1-051" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623" y="1263"/>
         </scene>
         <!--Offers-->
         <scene sceneID="1fu-qp-B1W">
