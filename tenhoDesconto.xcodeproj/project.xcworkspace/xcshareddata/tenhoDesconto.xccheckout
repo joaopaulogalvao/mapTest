@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BEC112C-452B-4227-998D-0C8D90B87FC7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tenhoDesconto</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F08511D5E34FDB7F856E5C0CCC8F74EFCEFFE81</key>
+		<string>https://github.com/joaopaulogalvao/tenhodesconto</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tenhoDesconto.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F08511D5E34FDB7F856E5C0CCC8F74EFCEFFE81</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/joaopaulogalvao/tenhodesconto</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F08511D5E34FDB7F856E5C0CCC8F74EFCEFFE81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F08511D5E34FDB7F856E5C0CCC8F74EFCEFFE81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mapTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
